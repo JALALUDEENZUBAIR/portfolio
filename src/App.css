@@ -1,0 +1,116 @@
+.main-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.header-container {
+  width: 100vw;
+  height: 10vh;
+  background-color: #1a2930;
+  z-index: 10000;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.list-container {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.main-container a {
+  color: #ffffff;
+  position: relative;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+}
+.list-container a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: rgb(235, 235, 59);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+.list-container a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  opacity: 1;
+}
+.body-container {
+  width: 100vw;
+  height: auto;
+  margin-top: 10vh;
+}
+.close{
+  font-size: xx-large;
+  cursor: pointer;
+  display: none; 
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.open {
+  color: #FFFFFF;
+  font-size: xx-large;
+  float: right;
+  margin: 20px;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 600px) {
+  .route.show{
+    margin-top:40vh;
+    transition:all 0.2s ease;
+  }
+  .body-container {
+    margin-top: 0vh;
+  }
+  .main-container{
+    display: block;
+  }
+  .header-container.show{
+    top: 0;
+  }
+  .header-container {
+    width: 100vw;
+    position: fixed;
+    top: -100vh;
+    transition: top 0.2s ease;
+  }
+  .list-container {
+    height: 40vh;
+    background-color: whitesmoke;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+  } 
+  .header-container a {
+    color: #1a2930;
+  }
+  .open.show{
+    display: block; 
+  }
+  .close{
+    display: block 
+  }   
+} 

@@ -1,0 +1,55 @@
+.project-container{
+    color: rgb(213, 227, 239);
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0px;
+    animation: fadeIn 2s ease-in-out;
+}
+.project{
+    width: 65vw;
+    padding: 0px 40px 30px;
+    margin: auto;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.5), 3px 0px 5px rgba(0, 0, 0, 0.5); 
+    border-radius: 40px;
+}
+.project h4{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.project p{
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.skills span{
+    background: linear-gradient(25deg, #1a2930, #3b4c52);
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 3px 3px 5px rgba(0, 0, 0, 0.5); 
+}
+#source-code{
+    width: 25px;
+    padding: 20px 0px;
+    display: none;
+}
+#source-code a{
+    font-size:x-large;
+}
+.project:hover{
+    cursor: default;
+    scale: 1.005;
+}
