@@ -15,6 +15,7 @@ import { SiApachekafka } from "react-icons/si";
 import { MdStar } from "react-icons/md";
 import { MdOutlineStarBorderPurple500 } from "react-icons/md";
 import { MdOutlineStarHalf } from "react-icons/md";
+import { SiMongodb } from "react-icons/si";
 const About = () =>{
     return(
         <div className="About-container">
@@ -48,6 +49,7 @@ const About = () =>{
                     <span id="skill-container"><SiSpringsecurity id="skill"/><p>Spring <br/>Security</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><SiApachekafka id="skill"/><p>Kafka</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><BiLogoPostgresql id="skill"/><p>PostgreSQL</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
+                    <span id="skill-container"><SiMongodb id="skill"/><p>MongoDB</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><FaGithub id="skill"/><p>Github</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><SiPostman id="skill"/><p>PostMan</p><h2><MdStar/><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><SiApachemaven id="skill"/><p>Maven</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
