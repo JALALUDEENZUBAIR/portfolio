@@ -17,6 +17,7 @@ import { MdOutlineStarBorderPurple500 } from "react-icons/md";
 import { MdOutlineStarHalf } from "react-icons/md";
 import { SiMongodb } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 const About = () =>{
     return(
         <div className="About-container">
@@ -46,8 +47,9 @@ const About = () =>{
                     <span id="skill-container"><FaJsSquare id="skill"/><p>JavaScript</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><GrReactjs id="skill"/><p>ReactJS</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><SiRedux id="skill"/><p>Redux</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
+                    <span id="skill-container"><RiNextjsFill id="skill"/><p>Next.JS</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><FaJava id="skill"/><p>Java</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
-                    <span id="skill-container"><BiLogoSpringBoot id="skill"/><p>SpringBoot</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
+                    <span id="skill-container"><BiLogoSpringBoot id="skill"/><p>Spring Boot</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><SiSpringsecurity id="skill"/><p>Spring <br/>Security</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><SiApachekafka id="skill"/><p>Kafka</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><BiLogoPostgresql id="skill"/><p>PostgreSQL</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
