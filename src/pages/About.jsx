@@ -18,6 +18,7 @@ import { MdOutlineStarHalf } from "react-icons/md";
 import { SiMongodb } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
+import { BiLogoTypescript } from "react-icons/bi";
 const About = () =>{
     return(
         <div className="About-container">
@@ -45,6 +46,7 @@ const About = () =>{
                     <span id="skill-container"><IoLogoHtml5 id="skill"/><p>HTML</p><h2><MdStar/><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><IoLogoCss3 id="skill"/><p>CSS</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><FaJsSquare id="skill"/><p>JavaScript</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
+                    <span id="skill-container"><BiLogoTypescript id="skill"/><p>TypeScript</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><GrReactjs id="skill"/><p>ReactJS</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarHalf/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><SiRedux id="skill"/><p>Redux</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
                     <span id="skill-container"><RiNextjsFill id="skill"/><p>Next.JS</p><h2><MdStar/><MdStar/><MdStar/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/></h2></span>
