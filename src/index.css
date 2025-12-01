@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+body {
+  margin: 0;
+  height: 100%;
+  font-size: xx-small;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
