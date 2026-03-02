@@ -4,6 +4,21 @@ import { FiFolder } from "react-icons/fi";
 
 const projects = [
   {
+    title: "LinkTrace",
+    description:
+      "Built a scalable URL shortening and analytics platform using a modular, feature-based clean architecture. Developed high-performance link redirection with Redis caching and implemented asynchronous analytics processing using RabbitMQ. Designed secure session-based authentication with Passport.js, including CSRF protection and rate limiting for enhanced security. Created a responsive React + TypeScript frontend with real-time analytics visualization and user-friendly link management dashboard. Optimized for scalability and production-ready deployment.",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+      "RabbitMQ",
+      "React",
+      "TypeScript",
+      "Passport.js",
+    ],
+  },
+  {
     title: "Project Management Tool",
     description:
       "Developed a responsive project management platform using Angular and TypeScript, ensuring type-safe code and seamless usability across mobile and desktop devices. Implemented real-time chat pages and drag-and-drop task management to enhance team collaboration. Integrated a friend management system with search and assignment features, optimized for responsive design. Added document management with upload, preview, and search capabilities to streamline resource sharing.",

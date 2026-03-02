@@ -204,8 +204,8 @@ let Experience_TimeLine = [
   {
     title: "VoxyHealth",
     role: "SDE Intern",
-    present: true,
-    time: "28th Aug 2025 - Present",
+    present: false,
+    time: "28th Aug 2025 - 27th Feb 2026",
     description:
       "I actively contributed to the live production environment by implementing new features and resolving existing issues to enhance the platform’s performance and reliability. My responsibilities included developing and integrating features, handling requests and responses, and ensuring smooth functionality across the system. Additionally, I was involved in bug fixing and maintenance tasks, addressing and resolving critical issues to maintain seamless operations. My key technical skills include React, Node.js, Python, JavaScript, Express.js, TypeScript, MongoDB, RabbitMQ, Manual Testing, and Unit Testing.",
   },
